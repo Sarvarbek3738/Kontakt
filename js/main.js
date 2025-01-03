@@ -50,6 +50,10 @@ writeData()
 
 form.addEventListener("submit", (e) => {
     e.preventDefault()
+    if (ism.value.trim() === "" || familiya.value.trim() === "" || tel.value.trim() === "") {
+        alert("Ma'lumot to'liq kiriting!");
+        return;
+    }
     var obj = {
         id: Math.random() * 9999,
         ism: ism.value,
