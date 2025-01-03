@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #F6F9FA;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.kod {
+    border: 1px solid #394867;
+    padding: 8px 13px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    gap: 8px;
+    color: #394867;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.TunKun {
+    border: 1px solid #394867;
+    padding: 8px 13px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    gap: 8px;
+    color: #394867;
+    overflow: hidden;
+    cursor: pointer;
+}
+.kontakt{
+    font-size: 32px;
+    font-weight: 600;
+    color: #212A3E;
+}
+.hero{
+    padding-top: 48px;
+    /* height: 100vh; */
+    padding-bottom: 40px;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+}
+.newkontaktlar{
+    width: 380px;
+    position: relative;
+}
+.newkontaktlar .img img{
+    width: 100%;
+}
+.qoshish{
+    background-color: #F6F9FA;
+    padding: 16px;
+    border-radius: 20px;
+    position: absolute;
+    width: 380px;
+    top: 240px;
+}
+.input{
+    display: flex;
+    padding: 8px;
+    border: 1px solid #394867;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+.input input{
+    border: none;
+}
+.input .icon{
+    border-right: 1.5px solid #394867B2 ;
+    height: 20px;
+    padding-right: 8px;
+}
+.malumot{
+    font-size: 16px;
+    padding-left: 8px;
+    color: #394867B2;
+    font-weight: normal;
+}
+.malumot input{
+    width: 100%;
+    background-color: #F6F9FA;
+}
+.btn button{
+    width: 348px;
+    height: 36px;
+    border: none;
+    background-color: #394867;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+.btn{
+    text-align: center;
+    position: relative;
+    padding-bottom: 8px;
+}
+.btn .icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+.btn .chiziq {
+    position: absolute;
+    background-color: white;
+    width: 1.5px;
+    height: 20px;
+    top: 7.5px;
+    left: 37px;
+}
+.newkontaktlar h1{
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 2px;
+}
+.Kontak h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+.natija{
+    width: 800px;
+    padding: 16px;
+    background-color: #F6F9FA;
+    border-radius: 0px 0px 20px 20px;
+}
+.foydalanuvchi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F9FA;
+}
+.foydalanuvchi h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.qidirish .input{
+    position: relative;
+  
+}
+.qidirish{
+    background-color: #F6F9FA;
+}
+.oxiri{
+    background-color: #F6F9FA;
+    padding: 16px;
+    border-radius: 20px 20px 0px 0px;
+}
+.iconBarch{
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    padding-left: 8px;
+    height: 20px;
+    border-left:1.5px solid #394867B2 ;
+    font-size: 16px ;
+    font-weight: 200;
+    color: #394867;
+    top: 10px;
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #394867;
+}
+.delete i{
+    color: red;
+}
+.FIO h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212A3E;
+}
+.FIO p{
+    padding-top: 8px;
+    color: #394867;
+    font-size: 16px;
+    font-weight: 400;
+}
